@@ -16,7 +16,7 @@ with open("words.json") as file:
         return nex
 
 
-st = ("Justus")
+st = ("Example")
 wort = st.replace(" ", "").lower()
 for t in range(1000):
     wort = next_word(wort)
